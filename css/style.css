@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+    --bg: #15161b;
+    --bg2: #2c2f37;
+    --texto: #ffffff;
+    --botoes: #1a7993;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    background-color: var(--bg);
+    color: var(--texto);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#logo h2{
+    font-size: 30px;
+}
+
+#logo span{
+    color: var(--botoes);
+}
+
+#section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+#area-title{
+    width: 40vw;
+}
+
+#area-title h3{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#area-title h1{
+    font-weight: normal;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: -16px;
+}
+
+#area-title a{
+    display: inline-block;
+    background-color: var(--botoes);
+    color: var(--texto);
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#image-1 img{
+    width: 40vw;
+    height: auto;
+}
+
+/* ARIA CARDS */
+
+#section-cards{
+    justify-content: center;
+    position: relative;
+    top: 190px;
+    height: 50vh;
+
+    display: grid;
+    place-items: center;
+}
+
+#section h2{
+    justify-content: center;
+}
+
+
+#cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--bg2);
+    width: 20vw;
+    margin: 0 10px;
+    display: grid;
+    place-items: center;
+}
+
+.card img{
+    width: 10vw;
+    margin: 10px;
+}
+
+.card h3{
+    display: grid;
+    place-items: center;
+}
