@@ -56,6 +56,7 @@ header{
 #area-title a{
     display: inline-block;
     background-color: var(--botoes);
+    border: 2px solid var(--botoes);
     color: var(--texto);
     text-decoration: none;
     padding: 15px 50px;
@@ -64,47 +65,149 @@ header{
     border-radius: 5px;
 }
 
+#area-title a:hover{
+    border: 2px solid var(--botoes);
+    background-color: var(--bg1);
+    color: #1a7993;
+    transition: all .2s;
+}
+
+
 #image-1 img{
     width: 40vw;
     height: auto;
 }
 
-/* ARIA CARDS */
 
-#section-cards{
-    justify-content: center;
+/* SECTION 3 */
+
+#section-3{
+    background-color: var(--botoes);
+    height: 70vh;
     position: relative;
-    top: 190px;
-    height: 50vh;
-
-    display: grid;
-    place-items: center;
-}
-
-#section h2{
-    justify-content: center;
-}
-
-
-#cards{
+    top: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+#area-title-2{
+    width: 40vw;
 }
 
-.card{
+#area-title-2 h1{
+    font-size: 35px;
+    width: 30vw;
+}
+
+#area-title-2 h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#area-title-2 a{
+    display: inline-block;
+    background-color: var(--texto);
+    padding: 15px 60px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--botoes);
+    cursor: pointer;
+}
+
+#image-2 img{
+    width: auto;
+    height: 70vh;
+    position: relative;
+    top: 3px;
+}
+
+/* ARIA-FORM */
+
+#aria-form{
+    position: relative;
+    top: 350px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#aria-form h2{
+    text-align: center;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#form input{
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+input::placeholder{
+    color: var(--bg);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+input[type="submit"]{
+    background-color: var(--botoes);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--texto);
+    height: 50px;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--texto);
+    color: #1a7993;
+    transition: all .2s;
+}
+
+footer{
     background-color: var(--bg2);
-    width: 20vw;
-    margin: 0 10px;
     display: grid;
     place-items: center;
+    position: relative;
+    top: 350px;
+    width: auto;
+    height: 40vh;
 }
 
-.card img{
-    width: 10vw;
-    margin: 10px;
+#social h3{
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
-.card h3{
-    display: grid;
+#social img{
+    width: 30px;
+    display: inline-flex;
     place-items: center;
+    margin-left: 15px;
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
