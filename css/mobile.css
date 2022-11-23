@@ -1,0 +1,84 @@
+
+@media (max-width:1050px){
+    /* section-1 */
+    #area-title h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:900px){
+
+    /* section-1 */
+    #area-title h1{
+        font-size: 50px;
+    }
+    #section-1{
+        display: grid;
+        text-align: center;
+        top: 10px;
+    }
+
+    #area-title{
+        width: 80vw;
+    }
+
+    #area-title a{
+        margin-bottom: 50px;
+    }
+
+    #image-1 img{
+        width: 80vw;
+    }
+
+    /* section-2 */
+
+    #section-cards{
+        top: 90px;
+    }
+
+    #cards{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 40vw; height: 20vh;
+        margin: 10px;
+        display: grid;
+        place-items: center;
+    }
+
+    /* section-3 */
+
+    #section-3{
+        top: 200px;
+    }
+
+    #area-title-2{
+        width: 80vw;
+        text-align: center;
+    }
+
+    #area-title-2 h1{
+        font-size: 35px;
+        width: 80vw;
+    }
+
+    #image-2 img{
+        display: none;
+    }
+
+    /* formulário */
+
+    #aria-form{
+        top: 300px;
+        height: 60vh;
+    }
+
+    #aria-form h2{
+        width: 80vw;
+    }
+
+    #form input{
+        width: 70vw;
+    }
+}

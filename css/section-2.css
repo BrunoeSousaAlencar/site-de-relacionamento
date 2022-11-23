@@ -8,7 +8,7 @@
 #section-cards{
     justify-content: center;
     position: relative;
-    top: 190px;
+    top: 180px;
     display: grid;
     place-items: center;
 }

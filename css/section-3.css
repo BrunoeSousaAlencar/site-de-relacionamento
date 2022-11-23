@@ -1,0 +1,48 @@
+:root{
+    --bg: #15161b;
+    --bg2: #2c2f37;
+    --texto: #ffffff;
+    --botoes: #1a7993;
+}
+
+#section-3{
+    background-color: var(--botoes);
+    height: 70vh;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#area-title-2{
+    width: 40vw;
+}
+
+#area-title-2 h1{
+    font-size: 35px;
+    width: 30vw;
+}
+
+#area-title-2 h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#area-title-2 a{
+    display: inline-block;
+    background-color: var(--texto);
+    padding: 15px 60px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--botoes);
+    cursor: pointer;
+}
+
+#image-2 img{
+    width: auto;
+    height: 70vh;
+    position: relative;
+    top: 3px;
+}

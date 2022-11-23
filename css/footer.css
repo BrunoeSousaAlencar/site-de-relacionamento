@@ -1,0 +1,29 @@
+:root{
+    --bg: #15161b;
+    --bg2: #2c2f37;
+    --texto: #ffffff;
+    --botoes: #1a7993;
+}
+
+footer{
+    background-color: var(--bg2);
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 350px;
+    width: auto;
+    height: 40vh;
+}
+
+#social h3{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#social img{
+    width: 30px;
+    display: inline-flex;
+    place-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}

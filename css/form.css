@@ -1,0 +1,58 @@
+:root{
+    --bg: #15161b;
+    --bg2: #2c2f37;
+    --texto: #ffffff;
+    --botoes: #1a7993;
+}
+
+#aria-form{
+    position: relative;
+    top: 350px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#aria-form h2{
+    text-align: center;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#form input{
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+input::placeholder{
+    color: var(--bg);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+input[type="submit"]{
+    background-color: var(--botoes);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--texto);
+    height: 50px;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--texto);
+    color: #1a7993;
+    transition: all .2s;
+}
