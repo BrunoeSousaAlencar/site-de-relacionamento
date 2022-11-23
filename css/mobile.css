@@ -82,3 +82,9 @@
         width: 70vw;
     }
 }
+
+@media (max-width:700px){
+    footer{
+        height: 40vw;
+    }
+}
